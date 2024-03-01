@@ -4,7 +4,6 @@ struct Question {
     const char *question;
     const char *answer;
 };
-
 int main() {
     char name[50];
     int choice;
@@ -24,7 +23,7 @@ int main() {
     printf("Enter your choice (1/2/3): ");
     scanf("%d", &choice);
 
-
+//Sma 191, counties Kenya
     if (choice == 1) {
         // Questions about countries
         questions[0] = (struct Question){"What is the capital of France?", "Paris"};
@@ -33,7 +32,7 @@ int main() {
     } else if (choice == 2) {
         // Questions about capital cities
         questions[0] = (struct Question){"Which country does Canberra belong to?", "Australia"};
-        questions[1] = (struct Question){"What is the capital of Brazil?", "Brasilia"};
+        questions[1] = (struct Question){"What is the capital of Brazil?", "Rio de Jenairo"};
         numQuestions = 2;
     } else if (choice == 3) {
         // Questions about Kenyan history
