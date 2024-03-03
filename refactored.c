@@ -50,7 +50,7 @@ int main() {
         
         char userAnswer[50];
         printf("Your answer: ");
-        scanf("%49[^\n]%*c", userAnswer); 
+        scanf("%s", userAnswer); 
 
         if (strcmp(userAnswer, questions[i].answer) == 0) {
             printf("Correct!\n");
