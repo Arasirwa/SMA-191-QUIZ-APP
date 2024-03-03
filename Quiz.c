@@ -81,100 +81,102 @@ mainhome:
               // Each case represents a different question
               // The player's answer is checked and the result is displayed
               {
+                     
               case 1:
-                     printf("\n\nWhat is the maximum no. of asymptotes of the curve x^4+2x+6=0?");
-                     printf("\n\nA.4\tB.3\n\nC.none\tD.infinite\n\n");
-                     countq++;
-                     if (toupper(getch()) == 'A')
-                     {
-                            printf("\n\nCorrect!!!");
-                            countr++;
-                            break;
-                     }
-                     else
-                     {
-                            printf("\n\nWrong!!! The correct answer is A.4");
-                            break;
-                     }
+                  printf("\n\n\nWhat is the capital of Australia?");
+                  printf("\n\nA.Sydney\tB.Canberra\n\nC.Melbourne\tD.Brisbane\n\n");
+                  countq++;
+                  if (toupper(getch()) == 'B')
+                  {
+                         printf("\n\nCorrect!!!");
+                         countr++;
+                         break;
+                  }
+                  else
+                  {
+                         printf("\n\nWrong!!! The correct answer is B.Canberra");
+                         break;
+                  }
 
-              case 2:
-                     printf("\n\n\nHow many points are possible in a compound pendulum about which");
-                     printf("time period is same?");
-                     printf("\n\nA.4\tB.2\n\nC.none\tD.infinite\n\n");
-                     countq++;
-                     if (toupper(getch()) == 'A')
-                     {
-                            printf("\n\nCorrect!!!");
-                            countr++;
-                            break;
-                     }
-                     else
-                            printf("\n\nWrong!!! The correct answer is A.4");
-                     break;
+            case 2:
+                  printf("\n\n\nWho wrote the novel '1984'?");
+                  printf("\n\nA. George Orwell\tB. Aldous Huxley\n\nC. F. Scott Fitzgerald\tD. Ernest Hemingway\n\n");
+                  countq++;
+                  if (toupper(getch()) == 'A')
+                  {
+                        printf("\n\nCorrect!!!");
+                        countr++;
+                        break;
+                  }
+                  else
+                  {
+                         printf("\n\nWrong!!! The correct answer is A. George Orwell");
+                         break;
+                  }
 
               case 3:
-                     printf("\n\n\nWho was the first US President?");
-                     printf("\n\nA.Richard Nikson\tB.Abraham Linkon\n\nC.John F. Kennedy\tD.George Washington\n\n");
-                     countq++;
-                     if (toupper(getch()) == 'D')
-                     {
-                            printf("\n\nCorrect!!!");
-                            countr++;
-                            break;
-                     }
-                     else
-                     {
-                            printf("\n\nWrong!!! The correct answer is D.George Washington");
-                            break;
-                     }
+                  printf("\n\n\nWhat is the chemical symbol for sodium?");
+                  printf("\n\nA. Na\tB. So\n\nC. Sn\tD. Si\n\n");
+                  countq++;
+                  if (toupper(getch()) == 'A')
+                  {
+                         printf("\n\nCorrect!!!");
+                         countr++;
+                         break;
+                  }
+                  else
+                  {
+                         printf("\n\nWrong!!! The correct answer is A. Na");
+                         break;
+                  }
 
               case 4:
-                     printf("\n\n\nWho was awarded the 'Man of the Tournament' of ICC WORLD CUP 2007?");
-                     printf("\n\nA.Glen Magrath\tB.Mahela Jawardan\n\nC.Mathew Hayden\tD.Sachin Tendulkar\n\n");
-                     countq++;
-                     if (toupper(getch()) == 'A')
-                     {
-                            printf("\n\nCorrect!!!");
-                            countr++;
-                            break;
-                     }
-                     else
-                     {
-                            printf("\n\nWrong!!! The correct answer is A.Glen Magrath");
-                            break;
-                     }
-
+                  printf("\n\n\nWho painted the Mona Lisa?");
+                  printf("\n\nA. Leonardo da Vinci\tB. Vincent van Gogh\n\nC. Pablo Picasso\tD. Michelangelo\n\n");
+                  countq++;
+                  if (toupper(getch()) == 'A')
+                  {
+                         printf("\n\nCorrect!!!");
+                         countr++;
+                         break;
+                  }
+                  else
+                  {
+                         printf("\n\nWrong!!! The correct answer is A. Leonardo da Vinci");
+                         break;
+                  }
+              
               case 5:
-                     printf("\n\n\nWhich country won the Fifa World Cup 1998?");
-                     printf("\n\nA.France\tB.Brazil\n\nC.Italy\tD.England\n\n");
-                     countq++;
-                     if (toupper(getch()) == 'A')
-                     {
-                            printf("\n\nCorrect!!!");
-                            countr++;
-                            break;
-                     }
-                     else
-                     {
-                            printf("\n\nWrong!!! The correct answer is A.France");
-                            break;
-                     }
-
+                  printf("\n\n\nWhat is the largest planet in our solar system?");
+                  printf("\n\nA. Earth\tB. Jupiter\n\nC. Saturn\tD. Mars\n\n");
+                  countq++;
+                  if (toupper(getch()) == 'B')
+                  {
+                      printf("\n\nCorrect!!!");
+                      countr++;
+                      break;
+                  }
+                  else
+                  {
+                      printf("\n\nWrong!!! The correct answer is B. Jupiter");
+                      break;
+                  }
+              
               case 6:
-                     printf("\n\n\nWhich syllabe is stressed in the word 'democracy'?");
-                     printf("\n\nA.1st\tB.2nd\n\nC.3rd\tD.4th\n\n");
-                     countq++;
-                     if (toupper(getch()) == 'B')
-                     {
-                            printf("\n\nCorrect!!!");
-                            countr++;
-                            break;
-                     }
-                     else
-                     {
-                            printf("\n\nWrong!!! The correct answer is B.2nd");
-                            break;
-                     }
+                  printf("\n\n\nIn what year did the French Revolution begin?");
+                  printf("\n\nA. 1789\tB. 1815\n\nC. 1776\tD. 1799\n\n");
+                  countq++;
+                  if (toupper(getch()) == 'A')
+                  {
+                      printf("\n\nCorrect!!!");
+                      countr++;
+                      break;
+                  }
+                  else
+                  {
+                      printf("\n\nWrong!!! The correct answer is A. 1789");
+                      break;
+                  }
 
               case 7:
                      printf("\n\n\nWhich country was the winner of Cricket World Cup 1987?");
@@ -209,7 +211,7 @@ mainhome:
                      }
 
               case 9:
-                     printf("\n\n\nWhat is the capital of Denmark?");
+                     printf("\n\n\nWhat is the capital city of Denmark?");
                      printf("\n\nA.Copenhagen\tB.Helsinki\n\nC.Rome\t\tD.Madrid\n\n");
                      countq++;
                      if (toupper(getch()) == 'A')
@@ -225,10 +227,10 @@ mainhome:
                      }
 
               case 10:
-                     printf("\n\n\nWhich syllabe is stressed in the word 'instanteneous'?");
-                     printf("\n\nA.1st\tB.2nd\n\nC.3rd\tD.4th\n\n");
+                     printf("\n\n\nWhat is the largest ocean on Earth?");
+                     printf("\n\nA. Atlantic Ocean\tB. Indian Ocean\n\nC. Arctic Ocean\tD. Pacific Ocean\n\n");
                      countq++;
-                     if (toupper(getch()) == 'C')
+                     if (toupper(getch()) == 'D')
                      {
                             printf("\n\nCorrect!!!");
                             countr++;
@@ -236,15 +238,15 @@ mainhome:
                      }
                      else
                      {
-                            printf("\n\nWrong!!! The correct answer is C.3rd");
+                            printf("\n\nWrong!!! The correct answer is D. Pacific Ocean");
                             break;
                      }
 
               case 11:
-                     printf("\n\n\nWho was the only player to score 6 successive sixes in an over?");
-                     printf("\n\nA.Adam Gilchrist\tB.M.S.Dhoni\n\nC.Herschel Gibbs\tD.Sanath Jayasurya\n\n");
+                     printf("\n\n\nWhat is the chemical symbol for oxygen?");
+                     printf("\n\nA. O2\tB. H2O\n\nC. CO2\tD. O\n\n");
                      countq++;
-                     if (toupper(getch()) == 'C')
+                     if (toupper(getch()) == 'D')
                      {
                             printf("\n\nCorrect!!!");
                             countr++;
@@ -252,13 +254,45 @@ mainhome:
                      }
                      else
                      {
-                            printf("\n\nWrong!!! The correct answer is C.Herschel Gibbs");
+                            printf("\n\nWrong!!! The correct answer is D. O");
+                            break;
+                     }
+                     
+             case 12:
+                     printf("\n\n\nWhat is the currency of Japan?");
+                     printf("\n\nA. Yen\tB. Euro\n\nC. Dollar\tD. Yuan\n\n");
+                     countq++;
+                     if (toupper(getch()) == 'A')
+                     {
+                            printf("\n\nCorrect!!!");
+                            countr++;
+                            break;
+                     }
+                     else
+                     {
+                            printf("\n\nWrong!!! The correct answer is A. Yen");
                             break;
                      }
 
-              case 12:
-                     printf("\n\n\nWho was the only player to take 4 successive wickets?");
-                     printf("\n\nA.Malinga Bandara\tB.Lasith Malinga\n\nC.Bret Lee\tD.Murali Daran\n\n");
+              case 13:
+                      printf("\n\n\nWhat is the chemical symbol for iron?");
+                      printf("\n\nA. Fe\tB. Ir\n\nC. In\tD. Au\n\n");
+                      countq++;
+                      if (toupper(getch()) == 'A')
+                      {
+                            printf("\n\nCorrect!!!");
+                            countr++;
+                            break;
+                      }
+                      else
+                      {
+                            printf("\n\nWrong!!! The correct answer is A. Fe");
+                            break;
+                      }
+                     
+              case 14:
+                     printf("\n\n\nWhat is the largest mammal in the world?");
+                     printf("\n\nA. African Elephant\tB. Blue Whale\n\nC. Giraffe\tD. Hippopotamus\n\n");
                      countq++;
                      if (toupper(getch()) == 'B')
                      {
@@ -268,13 +302,13 @@ mainhome:
                      }
                      else
                      {
-                            printf("\n\nWrong!!! The correct answer is B.Lasith Malinga");
+                            printf("\n\nWrong!!! The correct answer is B. Blue Whale");
                             break;
                      }
 
-              case 13:
-                     printf("\n\n\nWhich country is hosting the Fifa World Cup 2010?");
-                     printf("\n\nA.South Africa\tB.Italy\n\nC.Argentina\tD.Spain\n\n");
+             case 15:
+                     printf("\n\n\nWho invented the telephone?");
+                     printf("\n\nA. Alexander Graham Bell\tB. Thomas Edison\n\nC. Nikola Tesla\tD. Guglielmo Marconi\n\n");
                      countq++;
                      if (toupper(getch()) == 'A')
                      {
@@ -284,39 +318,7 @@ mainhome:
                      }
                      else
                      {
-                            printf("\n\nWrong!!! The correct answer is A.South Africa");
-                            break;
-                     }
-
-              case 14:
-                     printf("\n\n\nWho is the author of 'Pulpasa Cafe'?");
-                     printf("\n\nA.Narayan Wagle\tB.Lal Gopal Subedi\n\nC.B.P. Koirala\tD.Khagendra Sangraula\n\n");
-                     countq++;
-                     if (toupper(getch()) == 'A')
-                     {
-                            printf("\n\nCorrect!!!");
-                            countr++;
-                            break;
-                     }
-                     else
-                     {
-                            printf("\n\nWrong!!! The correct answer is A.Narayan Wagle");
-                            break;
-                     }
-
-              case 15:
-                     printf("\n\n\nWhich country is Maria Sarapova from?");
-                     printf("\n\nA.Russia\tB.Switzerland\n\nC.Argentina\tD.Spain\n\n");
-                     countq++;
-                     if (toupper(getch()) == 'A')
-                     {
-                            printf("\n\nCorrect!!!");
-                            countr++;
-                            break;
-                     }
-                     else
-                     {
-                            printf("\n\nWrong!!! The correct answer is A.Russia");
+                            printf("\n\nWrong!!! The correct answer is A. Alexander Graham Bell");
                             break;
                      }
 
@@ -337,10 +339,10 @@ mainhome:
                      }
 
               case 17:
-                     printf("\n\n\nWhat is the smallest district of Nepal?");
-                     printf("\n\nA.Lalitpur\tB.Karnali\n\nC.Bhaktapur\tD.Gulmi\n\n");
+                     printf("\n\n\nWhich planet is known as the 'Red Planet'?");
+                     printf("\n\nA. Venus\tB. Mars\n\nC. Jupiter\tD. Mercury\n\n");
                      countq++;
-                     if (toupper(getch()) == 'C')
+                     if (toupper(getch()) == 'B')
                      {
                             printf("\n\nCorrect!!!");
                             countr++;
@@ -348,15 +350,15 @@ mainhome:
                      }
                      else
                      {
-                            printf("\n\nWrong!!! The correct answer is C.Bhaktapur");
+                            printf("\n\nWrong!!! The correct answer is B. Mars");
                             break;
                      }
 
               case 18:
-                     printf("\n\n\nWhat is the headquarter of Western Development Region?");
-                     printf("\n\nA.Dhankuta\tB.Kathmandu\n\nC.Dhangadhi\tD.Pokhara\n\n");
+                     printf("\n\n\nWhat is the chemical symbol for nitrogen?");
+                     printf("\n\nA. N\tB. Ni\n\nC. Na\tD. Ne\n\n");
                      countq++;
-                     if (toupper(getch()) == 'D')
+                     if (toupper(getch()) == 'A')
                      {
                             printf("\n\nCorrect!!!");
                             countr++;
@@ -364,15 +366,15 @@ mainhome:
                      }
                      else
                      {
-                            printf("\n\nWrong!!! The correct answer is D.Pokhara");
+                            printf("\n\nWrong!!! The correct answer is A. N");
                             break;
                      }
-
-              case 19:
-                     printf("\n\n\nWhich place is called 'The Cherrapunji of Nepal'?");
-                     printf("\n\nA.Dharan\tB.Kathmandu\n\nC.Pokhara\tD.Butwal\n\n");
+                     
+             case 19:
+                     printf("\n\n\nWho discovered the law of gravity?");
+                     printf("\n\nA.Isaac Newton\tB.Albert Einstein\n\nC.Galileo Galilei\tD.Johannes Kepler\n\n");
                      countq++;
-                     if (toupper(getch()) == 'C')
+                     if (toupper(getch()) == 'A')
                      {
                             printf("\n\nCorrect!!!");
                             countr++;
@@ -380,7 +382,7 @@ mainhome:
                      }
                      else
                      {
-                            printf("\n\nWrong!!! The correct answer is C.Pokhara");
+                            printf("\n\nWrong!!! The correct answer is A.Isaac Newton");
                             break;
                      }
 
@@ -401,10 +403,10 @@ mainhome:
                      }
 
               case 21:
-                     printf("\n\n\nWho was the F1 racing champion of 2006?");
-                     printf("\n\nA.Louis Hamilton\tB.Felipe Massa\n\nC.Fernando Alonso\tD.Michael Schumaker\n\n");
+                     printf("\n\n\nWhat is the capital of Italy?");
+                     printf("\n\nA. Rome\tB. Paris\n\nC. Madrid\tD. Berlin\n\n");
                      countq++;
-                     if (toupper(getch()) == 'C')
+                     if (toupper(getch()) == 'A')
                      {
                             printf("\n\nCorrect!!!");
                             countr++;
@@ -412,15 +414,15 @@ mainhome:
                      }
                      else
                      {
-                            printf("\n\nWrong!!! The correct answer is C.Fernanda Alonso");
+                            printf("\n\nWrong!!! The correct answer is A. Rome");
                             break;
                      }
 
               case 22:
-                     printf("\n\n\nWho won the Women Australian Open 2007?");
-                     printf("\n\nA.Martina Hingis\tB.Maria Sarapova\n\nC.Kim Clijster\tD.Serena Williams\n\n");
+                     printf("\n\n\nWho was the first woman to win a Nobel Prize?");
+                     printf("\n\nA. Marie Curie\tB. Mother Teresa\n\nC. Malala Yousafzai\tD. Rosa Parks\n\n");
                      countq++;
-                     if (toupper(getch()) == 'D')
+                     if (toupper(getch()) == 'A')
                      {
                             printf("\n\nCorrect!!!");
                             countr++;
@@ -428,12 +430,12 @@ mainhome:
                      }
                      else
                      {
-                            printf("\n\nWrong!!! The correct answer is D.Serena Williams");
+                            printf("\n\nWrong!!! The correct answer is A. Marie Curie");
                             break;
                      }
 
               case 23:
-                     printf("\n\n\nName the country where there no mosquito is found?");
+                     printf("\n\n\nName the country where no mosquito is found?");
                      printf("\n\nA.Germany\tB.Spain\n\nC.Japan\tD.France\n\n");
                      countq++;
                      if (toupper(getch()) == 'D')
