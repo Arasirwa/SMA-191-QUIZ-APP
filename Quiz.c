@@ -161,7 +161,7 @@ mainhome:
                      }
 
               case 6:
-                     printf("\n\n\nWhich syllabe is stressed in the word 'democracy'?");
+                     printf("\n\n\nWhich syllable is stressed in the word 'democracy'?");
                      printf("\n\nA.1st\tB.2nd\n\nC.3rd\tD.4th\n\n");
                      countq++;
                      if (toupper(getch()) == 'B')
@@ -209,7 +209,7 @@ mainhome:
                      }
 
               case 9:
-                     printf("\n\n\nWhat is the capital of Denmark?");
+                     printf("\n\n\nWhat is the capital city of Denmark?");
                      printf("\n\nA.Copenhagen\tB.Helsinki\n\nC.Rome\t\tD.Madrid\n\n");
                      countq++;
                      if (toupper(getch()) == 'A')
@@ -225,7 +225,7 @@ mainhome:
                      }
 
               case 10:
-                     printf("\n\n\nWhich syllabe is stressed in the word 'instanteneous'?");
+                     printf("\n\n\nWhich syllable is stressed in the word 'instanteneous'?");
                      printf("\n\nA.1st\tB.2nd\n\nC.3rd\tD.4th\n\n");
                      countq++;
                      if (toupper(getch()) == 'C')
@@ -273,7 +273,7 @@ mainhome:
                      }
 
               case 13:
-                     printf("\n\n\nWhich country is hosting the Fifa World Cup 2010?");
+                     printf("\n\n\nWhich country hosted the Fifa World Cup in 2010?");
                      printf("\n\nA.South Africa\tB.Italy\n\nC.Argentina\tD.Spain\n\n");
                      countq++;
                      if (toupper(getch()) == 'A')
@@ -433,7 +433,7 @@ mainhome:
                      }
 
               case 23:
-                     printf("\n\n\nName the country where there no mosquito is found?");
+                     printf("\n\n\nName the country where no mosquito is found?");
                      printf("\n\nA.Germany\tB.Spain\n\nC.Japan\tD.France\n\n");
                      countq++;
                      if (toupper(getch()) == 'D')
