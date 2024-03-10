@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h> // Add this line
 
 struct Question {
     const char *question;
@@ -43,22 +44,14 @@ int main() {
     }
 
     
-    printf("\nLet's start the quiz!\n");
-    for (int i = 0; i < numQuestions; i++) {
-        
-        printf("\nQuestion %d: %s\n", i + 1, questions[i].question);
+    printf("Your answer: ");
+    scanf("%s", userAnswer); 
 
-        
-        char userAnswer[50];
-        printf("Your answer: ");
-        scanf("%s", userAnswer); 
-
-        if (strcmp(userAnswer, questions[i].answer) == 0) {
-            printf("Correct!\n");
-            points++;
-        } else {
-            printf("Incorrect.\n");
-        }
+    if (strcmp(userAnswer, questions[i].answer) == 0) {
+        printf("Correct!\n");
+        points++;
+    } else {
+        printf("Incorrect.\n");
     }
 
     
