@@ -25,7 +25,7 @@ int main() {
 
 //Sma 191, counties Kenya
     if (choice == 1) {
-        // Questions about countries
+        // Questions about countriesclear
         questions[0] = (struct Question){"What is the capital of France?", "Paris"};
         questions[1] = (struct Question){"What is the capital of Japan?", "Tokyo"};
         numQuestions = 2;
