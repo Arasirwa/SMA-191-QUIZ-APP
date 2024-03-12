@@ -1,16 +1,21 @@
+//libraries used
 #include <stdio.h>
-
+#include <string.h> // Add this line
+//Defining question structures
 struct Question {
     const char *question;
     const char *answer;
 };
-int main() {
+//Main Functiom
+int main()
+{
+    //Variables declaration
     char name[50];
     int choice;
     int points = 0;
     struct Question questions[100];
     int numQuestions = 0;
-
+//User Interface
     printf("Welcome to the Quiz App!\n");
 
     printf("Please enter your name: ");
@@ -23,35 +28,48 @@ int main() {
     printf("Enter your choice (1/2/3): ");
     scanf("%d", &choice);
 
-//Sma 191, counties Kenya
+//Control Flow
     if (choice == 1) {
-        // Questions about countriesclear
-        questions[0] = (struct Question){"What is the capital of France?", "Paris"};
-        questions[1] = (struct Question){"What is the capital of Japan?", "Tokyo"};
+        // Questions about countries
+        questions[0] = (struct Question) {
+            "What is the capital of France?", "Paris"
+        };
+        questions[1] = (struct Question) {
+            "What is the capital of Japan?", "Tokyo"
+        };
         numQuestions = 2;
     } else if (choice == 2) {
         // Questions about capital cities
-        questions[0] = (struct Question){"Which country does Canberra belong to?", "Australia"};
-        questions[1] = (struct Question){"What is the capital of Brazil?", "Rio de Jenairo"};
+        questions[0] = (struct Question) {
+            "Which country does Canberra belong to?", "Australia"
+        };
+        questions[1] = (struct Question) {
+            "What is the capital of Brazil?", "Brasilia"
+        };
         numQuestions = 2;
     } else if (choice == 3) {
         // Questions about Kenyan history
-        questions[0] = (struct Question){"Who was the first president of Kenya?", "Jomo Kenyatta"};
-        questions[1] = (struct Question){"When did Kenya gain independence?", "1963"};
+        questions[0] = (struct Question) {
+            "Who was the first president of Kenya?", "Jomo Kenyatta"
+        };
+        questions[1] = (struct Question) {
+            "When did Kenya gain independence?", "1963"
+        };
         numQuestions = 2;
     }
 
-    
+
     printf("\nLet's start the quiz!\n");
+    //Loop to loop through the questions
     for (int i = 0; i < numQuestions; i++) {
-        
+
         printf("\nQuestion %d: %s\n", i + 1, questions[i].question);
 
-        
+
         char userAnswer[50];
         printf("Your answer: ");
-        scanf("%s", userAnswer); 
-
+        scanf("%s", userAnswer);
+//String comparison to check if answer is correct
         if (strcmp(userAnswer, questions[i].answer) == 0) {
             printf("Correct!\n");
             points++;
@@ -60,9 +78,10 @@ int main() {
         }
     }
 
-    
+//The end, thank you note
+
     printf("\nThank you for playing, %s!\n", name);
     printf("Total points: %d\n", points);
-
+//Termination
     return 0;
 }
