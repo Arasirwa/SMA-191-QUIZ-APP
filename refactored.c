@@ -68,8 +68,8 @@ int main()
 
         char userAnswer[50];
         printf("Your answer: ");
-        scanf("%s", userAnswer);
-//String comparison to check if answer is correct
+        scanf("%49[^\n]%*c", userAnswer); 
+
         if (strcmp(userAnswer, questions[i].answer) == 0) {
             printf("Correct!\n");
             points++;
