@@ -1,18 +1,20 @@
+//libraries used
 #include <stdio.h>
 #include <string.h> // Add this line
-
+//struct defining
 struct Question {
     const char *question;
     const char *answer;
 };
-
+//main function
 int main() {
+   //variable declarations
     char name[50];
     int choice;
     int points = 0;
     struct Question questions[100];
     int numQuestions = 0;
-
+//User interface
     printf("Welcome to the Quiz App!\n");
 
     printf("Please enter your name: ");
@@ -25,7 +27,7 @@ int main() {
     printf("Enter your choice (1/2/3): ");
     scanf("%d", &choice);
 
-
+//Control flow
     if (choice == 1) {
         // Questions about countries
         questions[0] = (struct Question){"What is the capital of France?", "Paris"};
@@ -46,7 +48,7 @@ int main() {
     
     printf("Your answer: ");
     scanf("%s", userAnswer); 
-
+//string comparison
     if (strcmp(userAnswer, questions[i].answer) == 0) {
         printf("Correct!\n");
         points++;
@@ -54,7 +56,7 @@ int main() {
         printf("Incorrect.\n");
     }
 
-    
+    //Thank you note
     printf("\nThank you for playing, %s!\n", name);
     printf("Total points: %d\n", points);
 
