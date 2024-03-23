@@ -1,8 +1,6 @@
 //libraries used
 #include <stdio.h>
-#include <string.h> // Add this line
-//Defining question structures
-struct Question {
+#include <string.h> 
     const char *question;
     const char *answer;
 };
@@ -60,7 +58,7 @@ int main()
 
 
     printf("\nLet's start the quiz!\n");
-    //Loop to loop through the questions
+
     for (int i = 0; i < numQuestions; i++) {
 
         printf("\nQuestion %d: %s\n", i + 1, questions[i].question);
@@ -78,7 +76,7 @@ int main()
         }
     }
 
-//The end, thank you note
+
 
     printf("\nThank you for playing, %s!\n", name);
     printf("Total points: %d\n", points);
